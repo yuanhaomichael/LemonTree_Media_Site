@@ -1,0 +1,22 @@
+.daterangepicker td.available:hover, .daterangepicker th.available:hover {
+    background-color: #eee;
+}
+.daterangepicker td.in-range {
+    background-color: #f0ecf9 !important;
+    color: #000 !important;
+}
+.daterangepicker td.in-range:hover {
+    background-color: #d3c5ec !important;
+
+}
+.daterangepicker td.active, .daterangepicker td.active:hover {
+    background-color: #6f42c1 !important;
+    color: #fff !important;
+}
+.applyBtn {
+    color: #fff !important;
+    background-color: #6f42c1 !important;
+}
+.applyBtn:hover {
+	background-color: #6239ad !important;
+}

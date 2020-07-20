@@ -1,0 +1,60 @@
+.daterangepicker {
+		background-color: #343a40;
+		border: 1px solid #111;
+	}
+	.daterangepicker:before {
+	   border-bottom: 7px solid #111;
+	}
+	.daterangepicker:after {
+	   border-bottom: 6px solid #343a40;
+	}
+	.daterangepicker .calendar-table {
+	   background-color: #343a40;
+	   border: none;
+	   color: #f8f9fa;
+	}
+	.daterangepicker .calendar-table .next span, .daterangepicker .calendar-table .prev span {
+	    color: #f8f9fa;
+		border: solid #f8f9fa;
+		border-width: 0 2px 2px 0;
+	}
+	.daterangepicker td.available:not(.in-range):hover, .daterangepicker th.available:not(.in-range):hover {
+		background-color: #495057 !important;
+	}
+	.daterangepicker td.off, .daterangepicker td.off.end-date, .daterangepicker td.off.in-range, .daterangepicker td.off.start-date {
+		background-color: #394046;
+		color: #777;
+    }
+
+	.daterangepicker td.in-range {
+		background-color: #2b2e31;
+		color: #eee;
+	}
+	.daterangepicker td.in-range:hover {
+		background-color: #3c4044;
+
+	}
+	.daterangepicker td.active, .daterangepicker td.active:hover {
+		background-color: #22262a;
+		color: #f8f9fa;
+	}
+	.daterangepicker .drp-buttons {
+		border-top: 1px solid #3c4044;
+	}
+	.daterangepicker .drp-selected {
+	   color: #f8f9fa;
+	}
+	.applyBtn {
+		color: #f8f9fa;
+		background-color: #22262a;
+	}
+	.applyBtn:hover {
+		background-color: #0b0d0e;
+	}
+	.cancelBtn {
+		color: #f8f9fa;
+		background-color: #394046;
+	}
+	.cancelBtn:hover {
+		background-color: #272c2f;
+	}

@@ -1,0 +1,38 @@
+{
+  "projectName": "site2.0",
+  "styleFile": "/css/style.css",
+  "assetsFolder": "/assets",
+  "frameworks": [
+    {
+      "name": "jquery_slim_33",
+      "type": "cdn"
+    },
+    {
+      "name": "fontawesome_4",
+      "type": "cdn"
+    },
+    {
+      "name": "bootstrap4",
+      "type": "cdn"
+    },
+    {
+      "name": "appConnect",
+      "type": "local"
+    }
+  ],
+  "projectType": "web",
+  "projectServerModel": "PHP",
+  "targets": [
+    {
+      "access": "ftp",
+      "name": "LemonTree Server",
+      "remoteURL": "https://lemontreemedia.io",
+      "ftpServer": "ftp.lemontreemedia.io",
+      "ftpPort": 21,
+      "ftpRemoteFolder": "/public_html/",
+      "ftpPassword": "55dda5c9b4959fc47bed71591ec77e41feb0ebf84ce375",
+      "ftpUser": "admin@lemontreemedia.io"
+    }
+  ],
+  "activeTarget": "LemonTree Server"
+}

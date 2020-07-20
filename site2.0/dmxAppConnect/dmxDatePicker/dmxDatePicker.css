@@ -1,0 +1,33 @@
+.drp-buttons button {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+
+.drp-buttons button:hover, .drp-buttons button:focus {
+  text-decoration: none;
+}
+.drp-buttons button:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.drp-buttons button:focus {
+  outline: none;
+}
+.cancelBtn {
+    color: #212529;
+    background-color: #f8f9fa;
+}
+.cancelBtn:hover {
+    background-color: #e4e4e4;
+}
+.applyBtn {
+    color: #fff;
+    background-color: #357ebd;
+}
+.applyBtn:hover {
+    background-color: #275d8b;
+}

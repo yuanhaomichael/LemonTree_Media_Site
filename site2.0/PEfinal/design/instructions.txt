@@ -1,0 +1,5 @@
+Requirements: responsive, use boostrap ideally, exactly as mockup. Button style similar to website lemontreemedia.io 
+
+
+
+****One thing to note: top button's text is "See Result" bottom button is "Book Now"*****
